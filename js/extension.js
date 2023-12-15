@@ -73,4 +73,6 @@
 
     _wsMessage = data;
   });
+
+  Scratch.extensions.register(new SetSocket());
 })(Scratch);
