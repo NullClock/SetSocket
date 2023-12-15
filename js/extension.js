@@ -64,11 +64,11 @@
     }
   }
 
-  _ws.addEventListener("open", () => {
+  _ws.onopen = () => {
     Scratch.vm.runtime.startHats("setsocket_whenConnectedToWebSocket");
   });
 
-  _ws.addEventListener("message", (e) => {
+  _ws.onmessage = (e) => {
     const data = e.data;
 
     _wsMessage = data;
