@@ -21,7 +21,7 @@ It is impossible to import SetSocket directly into Scratch, but it is possible t
 To import it into TurboWarp & PenguinMod, here are the steps:
  * Download the extension from this repo (js/extension.js), then
  * Go to [TurboWarp's editor](https://turbowarp.org/editor), or [PenguinMod's editor](https://studio.penguinmod.site), then
- * Click the "Add Extension" Button (![TurboWarp's add extension button](https://raw.githubusercontent.com/NullClock/SetSocket/main/images/add-ext-btn.png?token=GHSAT0AAAAAACLUM3TZAV2QD7HEVS3ZSMDSZL37JSQ)), which may be blue if you're using PenguinMod, then
+ * Click the "Add Extension" Button (![TurboWarp's add extension button](images/add-ext-btn.png)), which may be blue if you're using PenguinMod, then
  * In the search bar, search up "Custom", and click on "Custom Extension", then
  * In the popup menu that has now appeared, select file
  * Now, open your file app, and drag the file you downloaded earlier into the box
