@@ -43,7 +43,7 @@
           },
           {
             opcode: 'getMessage',
-            blockType: Scratch.BlockType.REPORTED,
+            blockType: Scratch.BlockType.REPORTER,
             text: 'message text'
           }
         ]
@@ -61,6 +61,7 @@
         const data = e.data;
 
         _wsMessage = data;
+        Scratch.vm.runtime.startHats("setsocket_whenMessageRecieved");
       };
     }
 
