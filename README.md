@@ -25,6 +25,6 @@ To import it into TurboWarp & PenguinMod, here are the steps:
  * In the search bar, search up "Custom", and click on "Custom Extension", then
  * In the popup menu that has now appeared, select file
  * Now, open your file app, and drag the file you downloaded earlier into the box
- * Then, check the "Run extension without Sandbox" checkbox, then
+ * Then, MAKE SURE TO enable the "Run extension without Sandbox" checkbox, then
  * Finally, click load
  * Done! Enjoy the WebSockets!
